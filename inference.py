@@ -21,12 +21,10 @@ JSON_CONTENT_TYPE = 'application/json'
 ACCEPTED_CONTENT_TYPE = [ JPEG_CONTENT_TYPE ]
 
 
-logger.info("hany here")
-
 
 def model_fn(model_dir):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    logger.info('Hany Loading the model.')
+    logger.info('Loading the model.')
     model = models.resnet50(pretrained=True)
     for param in model.parameters():
         param.requires_grad = False
