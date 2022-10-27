@@ -33,6 +33,7 @@
 #### Screenshot for completed training jobs
 ![Training Jobs](screenshots/training_job.png "Training Jobs Completed")
 ![Training Jobs Logs](./screenshots/logs.png "Training Jobs Completed Logs")
+![Training Jobs](screenshots/logs2.png "Training Logs")
 
 #### Tune at least two hyperparameters
 ![HPO Training Jobs](./screenshots/hyperparameter_training_jobs.png "Hyperparameter tuning")
