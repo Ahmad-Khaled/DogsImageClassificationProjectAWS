@@ -53,7 +53,7 @@ After creating the debugger config, it is then passed to the estimtor to link it
 
 ### Results
 <!-- **TODO**: What are the results/insights did you get by profiling/debugging your model? -->
-After Epoch 2, the STDOUT showed the following:
+In my first training trial and after Epoch 2, the STDOUT showed the following:
 ![Degbug Output](./screenshots/debugger.png "Debugger logs")
 
 Profiler output is in the root directory of the repository, named: "profiler_repot.zip"
