@@ -31,12 +31,12 @@
 - Retrieve the best best hyperparameters from all your training jobs -->
 
 #### Screenshot for completed training jobs
-![Training Jobs](screensots/training_job.png "Training Jobs Completed")
-![Training Jobs Logs](screensots/logs.png "Training Jobs Completed Logs")
+![Training Jobs](screenshots/training_job.png "Training Jobs Completed")
+![Training Jobs Logs](./screenshots/logs.png "Training Jobs Completed Logs")
 
 #### Tune at least two hyperparameters
-![HPO Training Jobs](screensots/hyperparameter_training_jobs.png "Hyperparameter tuning")
-![Selected Best Hyperparameters](screensots/best_hyperparameter.png "Training Jobs Completed")
+![HPO Training Jobs](./screenshots/hyperparameter_training_jobs.png "Hyperparameter tuning")
+![Selected Best Hyperparameters](./screenshots/best_hyperparameter.png "Training Jobs Completed")
 
 #### Retrieve the best hyperparameters from all your training jobs
 { 'batch_size': '"128"',
@@ -53,7 +53,7 @@ After creating the debugger config, it is then passed to the estimtor to link it
 ### Results
 <!-- **TODO**: What are the results/insights did you get by profiling/debugging your model? -->
 After Epoch 2, the STDOUT showed the following:
-![Degbug Output](screensots/debugger.png "Debugger logs")
+![Degbug Output](./screenshots/debugger.png "Debugger logs")
 
 Profiler output is in the root directory of the repository, named: "profiler_repot.zip"
 <!-- **TODO** Remember to provide the profiler html/pdf file in your submission. -->
@@ -67,6 +67,6 @@ img_path = "dogImages/test/002.Afghan_hound/Afghan_hound_00141.jpg"
 2. Use the predictor.predict method after reading the image in the binary format. Pass the image binaries to the predictor.predict method and wait for the predicted class.
 
 ##### Model Endpoint
-![ml-c5-2xlarge Endpoint](screensots/deployed_endpoint.png "SageMaker Deployed Endpoint")
+![ml-c5-2xlarge Endpoint](./screenshots/deployed_endpoint.png "SageMaker Deployed Endpoint")
 
 <!-- **TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker. -->
