@@ -2,21 +2,26 @@
 
 # Image classification using AWS Sagemaker
 
-**TODO:** Write a short introduction to your project.
+<!-- **TODO:** Write a short introduction to your project. -->
 
-## Project Set Up and Installation
-**OPTIONAL:** If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to make your `README` detailed and self-explanatory. For instance, here you could explain how to set up your project in AWS and provide helpful screenshots of the process.
+###### Short Introduction: This project uses Convolutional Neural Networks (CNN) with Pytorch framework to classify dog breeds. Given an image of a dog, this algorithm will identify an estimate of the canine’s breed. 
+
 
 ## Dataset
 
 ### Overview
-**TODO**: Explain about the data you are using and where you got it from.
+<!-- **TODO**: Explain about the data you are using and where you got it from -->
+###### Using the link: https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip, it was possible to download and unzip the dogImages directory and later send it to S3.
 
 ### Access
-**TODO**: Explain how you are accessing the data in AWS and how you uploaded it
+<!-- **TODO**: Explain how you are accessing the data in AWS and how you uploaded it -->
 
 ## Hyperparameter Tuning
-**TODO**: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+<!-- **TODO**: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search -->
+
+###### I used Resnet50 as from my previous practice it was fit for that type of image classification changed hyper parameters for learning rate and batch size: "lr": (0.001, 0.1), "batch_size": [128, 256]
+
+
 
 Remember that your README should:
 - Include a screenshot of completed training jobs
